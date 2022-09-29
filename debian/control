@@ -1,0 +1,23 @@
+Source: fonts-arphic-gkai00mp
+Section: fonts
+Priority: optional
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+Homepage: http://www.arphic.com.tw/
+Vcs-Git: https://salsa.debian.org/fonts-team/fonts-arphic-gkai00mp.git
+Vcs-Browser: https://salsa.debian.org/fonts-team/fonts-arphic-gkai00mp
+Rules-Requires-Root: no
+
+Package: fonts-arphic-gkai00mp
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: "AR PL KaitiM GB" Chinese TrueType font by Arphic Technology
+ "AR PL KaitiM GB" is a high-quality Chinese TrueType font
+ (gkai00mp.ttf) generously provided by Arphic Technology to the Free
+ Software community under the "Arphic Public License".
+ .
+ You also need to install the "latex-cjk-chinese-arphic-gkai00mp" package for
+ typesetting with Omega or with CJK for LaTeX (cjk-latex).
